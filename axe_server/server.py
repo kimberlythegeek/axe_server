@@ -28,7 +28,7 @@ def run():
   print('running server...')
 
   scheduler = PeriodicScheduler()
-  scheduler.setup(60, update)
+  scheduler.setup(86400, update)
   scheduler.run()
 
   httpd.serve_forever()
