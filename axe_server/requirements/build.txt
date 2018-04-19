@@ -1,0 +1,7 @@
+selenium
+axe-selenium-python
+flask
+flask-jsonpify
+flask-sqlalchemy
+flask-restful
+python-crontab

@@ -1,0 +1,362 @@
+{
+    "last_updated": "2018-04-19 12:01:33.655195",
+    "violations": [
+        {
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+            "help": "Elements must have sufficient color contrast",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/color-contrast?application=axeAPI",
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.19,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ff9500",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "bold",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 2.19 (foreground color: #ff9500, background color: #ffffff, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<nav role=\"navigation\" class=\"moz-global-nav\" id=\"moz-global-nav\">",
+                                    "target": [
+                                        "#moz-global-nav"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #ff9500, background color: #ffffff, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                    "html": "<a href=\"/en-US/firefox/\" data-link-type=\"nav\" data-link-position=\"top\" data-link-name=\"Firefox\">Firefox</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "a[data-link-name=\"Firefox\"][data-link-position=\"top\"][href$=\"firefox/\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 1.8900000000000001,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#16da00",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "bold",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 1.89 (foreground color: #16da00, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<a class=\"download-link button button-green\" href=\"/firefox/download/thanks/\" data-direct-link=\"https://download.mozilla.org/?product=firefox-latest-ssl&amp;os=osx&amp;lang=en-US\" data-link-type=\"download\" data-display-name=\"macOS\" data-download-version=\"osx\" data-download-os=\"Desktop\" data-download-location=\"nav\">",
+                                    "target": [
+                                        "a[data-display-name=\"macOS\"][data-download-location=\"nav\"][data-download-version=\"osx\"]"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #16da00, background color: #ffffff, font size: 10.5pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                    "html": "<strong class=\"download-title\">\n            \n              Download Firefox\n            \n          </strong>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "a[data-display-name=\"macOS\"][data-download-location=\"nav\"][data-download-version=\"osx\"] > .download-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.19,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ff9500",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "bold",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 2.19 (foreground color: #ff9500, background color: #ffffff, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<nav class=\"moz-sub-nav firefox\" role=\"navigation\">",
+                                    "target": [
+                                        ".moz-sub-nav"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.19 (foreground color: #ff9500, background color: #ffffff, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                    "html": "<a class=\"current\" href=\"/en-US/firefox/\" data-link-name=\"Desktop\" data-link-type=\"nav\" data-link-position=\"subnav\">Desktop</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".current[data-link-name=\"Desktop\"][data-link-position=\"subnav\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#16da00",
+                                "contrastRatio": 1.8900000000000001,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "bold",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 1.89 (foreground color: #ffffff, background color: #16da00, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<a class=\"download-link button button-green\" href=\"/firefox/download/thanks/\" data-direct-link=\"https://download.mozilla.org/?product=firefox-latest-ssl&amp;os=osx&amp;lang=en-US\" data-link-type=\"download\" data-display-name=\"macOS\" data-download-version=\"osx\" data-download-os=\"Desktop\" data-download-location=\"primary cta\">",
+                                    "target": [
+                                        "a[data-display-name=\"macOS\"][data-download-location=\"primary\\ cta\"][data-download-version=\"osx\"]"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #ffffff, background color: #16da00, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                    "html": "<strong class=\"download-title\">\n            \n              Download now\n            \n          </strong>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "a[data-display-name=\"macOS\"][data-download-location=\"primary\\ cta\"][data-download-version=\"osx\"] > .download-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#f9f9fa",
+                                "contrastRatio": 1.05,
+                                "expectedContrastRatio": "3:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "27.0pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 1.05 (foreground color: #ffffff, background color: #f9f9fa, font size: 27.0pt, font weight: normal). Expected contrast ratio of 3:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<section class=\"page-section features-scroller-section\">",
+                                    "target": [
+                                        ".features-scroller-section"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.05 (foreground color: #ffffff, background color: #f9f9fa, font size: 27.0pt, font weight: normal). Expected contrast ratio of 3:1",
+                    "html": "<h2 class=\"section-title\">Firefox Quantum features</h2>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".features-scroller-header-container > .section-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#f9f9fa",
+                                "contrastRatio": 1.05,
+                                "expectedContrastRatio": "3:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "18.0pt",
+                                "fontWeight": "bold",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 1.05 (foreground color: #ffffff, background color: #f9f9fa, font size: 18.0pt, font weight: bold). Expected contrast ratio of 3:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<section class=\"page-section features-scroller-section\">",
+                                    "target": [
+                                        ".features-scroller-section"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.05 (foreground color: #ffffff, background color: #f9f9fa, font size: 18.0pt, font weight: bold). Expected contrast ratio of 3:1",
+                    "html": "<a class=\"\" href=\"#video-screenshots\">Screenshots</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "a[href$=\"#video-screenshots\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#16da00",
+                                "contrastRatio": 1.8900000000000001,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "bold",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 1.89 (foreground color: #ffffff, background color: #16da00, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<a class=\"download-link button button-green\" href=\"/firefox/download/thanks/\" data-direct-link=\"https://download.mozilla.org/?product=firefox-latest-ssl&amp;os=osx&amp;lang=en-US\" data-link-type=\"download\" data-display-name=\"macOS\" data-download-version=\"osx\" data-download-os=\"Desktop\" data-download-location=\"other\">",
+                                    "target": [
+                                        "a[data-display-name=\"macOS\"][data-download-location=\"other\"][data-download-version=\"osx\"]"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.89 (foreground color: #ffffff, background color: #16da00, font size: 12.0pt, font weight: bold). Expected contrast ratio of 4.5:1",
+                    "html": "<strong class=\"download-title\">\n            \n              Download now\n            \n          </strong>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "a[data-display-name=\"macOS\"][data-download-location=\"other\"][data-download-version=\"osx\"] > .download-title"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143"
+            ]
+        },
+        {
+            "description": "Ensures the order of headings is semantically correct",
+            "help": "Heading levels should only increase by one",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/heading-order?application=axeAPI",
+            "id": "heading-order",
+            "impact": "moderate",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": 5,
+                            "id": "heading-order",
+                            "impact": "moderate",
+                            "message": "Heading order invalid",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Heading order invalid",
+                    "html": "<h5>\n          <a href=\"/en-US/\" data-link-type=\"footer\" data-link-name=\"Mozilla\">Mozilla</a>\n        </h5>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".mozilla > h5"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/link-name?application=axeAPI",
+            "id": "link-name",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element does not have text that is visible to screen readers",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-label",
+                            "impact": "serious",
+                            "message": "aria-label attribute does not exist or is empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-labelledby",
+                            "impact": "serious",
+                            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-presentation",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"presentation\"",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-none",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"none\"",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+                    "html": "<a href=\"/en-US/firefox/switch/\">\n          <img class=\"\" src=\"/media/img/firefox/home/switch-to-firefox.fb1c114dfd84.png\" srcset=\"/media/img/firefox/home/switch-to-firefox-high-res.0d9af84c22d3.png 1.5x\" alt=\"\" width=\"643\" height=\"377\">\n        </a>",
+                    "impact": "serious",
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is in tab order and does not have accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".section-media > a[href$=\"switch/\"]"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag111",
+                "wcag412",
+                "wcag244",
+                "section508",
+                "section508.22.a"
+            ]
+        }
+    ]
+}

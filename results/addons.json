@@ -1,0 +1,1606 @@
+{
+    "last_updated": "2018-04-19 12:01:41.239792",
+    "violations": [
+        {
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+            "help": "Elements must have sufficient color contrast",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/color-contrast?application=axeAPI",
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#0a84ff",
+                                "contrastRatio": 3.64,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "8.3pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 3.64 (foreground color: #ffffff, background color: #0a84ff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<a class=\"Button Button--action Header-authenticate-button Header-button Button--micro\" href=\"#login\">Register or Log in</a>",
+                                    "target": [
+                                        ".Button"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.64 (foreground color: #ffffff, background color: #0a84ff, font size: 8.3pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                    "html": "<a class=\"Button Button--action Header-authenticate-button Header-button Button--micro\" href=\"#login\">Register or Log in</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".Button"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 3.07,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#0d96ff",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<header class=\"Card-header\">Social media customization</header>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-header"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                    "html": "<a href=\"/en-US/firefox/collections/mozilla/social-media-customization/\">See more social media customization extensions</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-footer-link > a"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 3.07,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#0d96ff",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<header class=\"Card-header\">Wikipedia boosters</header>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-header"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                    "html": "<a href=\"/en-US/firefox/collections/mozilla/wikipedia-boosters/\">See more Wikipedia boosters</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-footer-link > a"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 3.07,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#0d96ff",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<header class=\"Card-header\">Featured themes</header>",
+                                    "target": [
+                                        ".Home-FeaturedThemes > .Card-header"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                    "html": "<a href=\"/en-US/firefox/search/?featured=true&amp;type=persona\">See more featured themes</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".Home-FeaturedThemes > .Card-footer-link > a"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 3.07,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#0d96ff",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<header class=\"Card-header\">Good time tabs</header>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-header"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                    "html": "<a href=\"/en-US/firefox/collections/mozilla/good-time-tabs/\">See more good time tabs extensions</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-footer-link > a"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 3.07,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#0d96ff",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<header class=\"Card-header\">Featured extensions</header>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-header"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #0d96ff, background color: #ffffff, font size: 10.5pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                    "html": "<a href=\"/en-US/firefox/search/?featured=true&amp;type=extension\">See more featured extensions</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".Home-FeaturedExtensions > .Card-footer-link > a"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143"
+            ]
+        },
+        {
+            "description": "Ensures every id attribute value is unique",
+            "help": "id attribute value must be unique",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/duplicate-id?application=axeAPI",
+            "id": "duplicate-id",
+            "impact": "moderate",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "Rating-rating-1",
+                            "id": "duplicate-id",
+                            "impact": "moderate",
+                            "message": "Document has multiple elements with the same id attribute: Rating-rating-1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.9\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.4\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 3\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: Rating-rating-1",
+                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-1\"></div>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(1)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "Rating-rating-2",
+                            "id": "duplicate-id",
+                            "impact": "moderate",
+                            "message": "Document has multiple elements with the same id attribute: Rating-rating-2",
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.9\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.4\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 3\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: Rating-rating-2",
+                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-2\"></div>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "Rating-rating-3",
+                            "id": "duplicate-id",
+                            "impact": "moderate",
+                            "message": "Document has multiple elements with the same id attribute: Rating-rating-3",
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.9\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.4\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 3\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: Rating-rating-3",
+                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-3\"></div>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(3)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "Rating-rating-4",
+                            "id": "duplicate-id",
+                            "impact": "moderate",
+                            "message": "Document has multiple elements with the same id attribute: Rating-rating-4",
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.9\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.4\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-half-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 3\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-half-star.Rating-choice"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: Rating-rating-4",
+                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-4\"></div>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(4)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "Rating-rating-5",
+                            "id": "duplicate-id",
+                            "impact": "moderate",
+                            "message": "Document has multiple elements with the same id attribute: Rating-rating-5",
+                            "relatedNodes": [
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.1\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-half-star\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.9\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-half-star.Rating-choice"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-half-star\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-half-star.Rating-choice"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.4\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-selected-star\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-selected-star.Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-half-star\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-half-star.Rating-choice"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-half-star\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 4\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-half-star.Rating-choice"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-half-star\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.8\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-half-star.Rating-choice"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice Rating-half-star\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-half-star.Rating-choice"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.3\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        "div[title=\"Rated\\ 3\\.7\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"Rating-choice\" id=\"Rating-rating-5\"></div>",
+                                    "target": [
+                                        ".SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.5\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-choice:nth-child(5)"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Document has multiple elements with the same id attribute: Rating-rating-5",
+                    "html": "<div class=\"Rating-choice Rating-half-star\" id=\"Rating-rating-5\"></div>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-metadata > .SearchResult-rating > .Rating.Rating--small[title=\"Rated\\ 4\\.6\\ out\\ of\\ 5\"] > .Rating-star-group > .Rating-half-star.Rating-choice"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.parsing",
+                "wcag2a",
+                "wcag411"
+            ]
+        },
+        {
+            "description": "Ensures the order of headings is semantically correct",
+            "help": "Heading levels should only increase by one",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/heading-order?application=axeAPI",
+            "id": "heading-order",
+            "impact": "moderate",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": 3,
+                            "id": "heading-order",
+                            "impact": "moderate",
+                            "message": "Heading order invalid",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Heading order invalid",
+                    "html": "<h3>Honey</h3>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".HeroSection.HeroSection-styleName--default:nth-child(1) > .HeroSection-link-wrapper > .HeroSection-content > h3"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": 4,
+                            "id": "heading-order",
+                            "impact": "moderate",
+                            "message": "Heading order invalid",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Heading order invalid",
+                    "html": "<h4 class=\"Footer-links-header\"><a href=\"/en-US/firefox/\">Add-ons</a></h4>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".Footer-amo-links > h4"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures every form element has a label",
+            "help": "Form elements must have labels",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/label?application=axeAPI",
+            "id": "label",
+            "impact": "critical",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "aria-label",
+                            "impact": "serious",
+                            "message": "aria-label attribute does not exist or is empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-labelledby",
+                            "impact": "serious",
+                            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "implicit-label",
+                            "impact": "critical",
+                            "message": "Form element does not have an implicit (wrapped) <label>",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "explicit-label",
+                            "impact": "critical",
+                            "message": "Form element does not have an explicit <label>",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "non-empty-title",
+                            "impact": "serious",
+                            "message": "Element has no title attribute or the title attribute is empty",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  Element has no title attribute or the title attribute is empty",
+                    "html": "<input value=\"\" autocomplete=\"off\" role=\"combobox\" aria-autocomplete=\"list\" aria-owns=\"react-autowhatever-1\" aria-expanded=\"false\" class=\"AutoSearchInput-query\" minlength=\"3\" maxlength=\"100\" name=\"q\" placeholder=\"Find add-ons\" type=\"search\">",
+                    "impact": "critical",
+                    "none": [],
+                    "target": [
+                        "input"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.forms",
+                "wcag2a",
+                "wcag332",
+                "wcag131",
+                "section508",
+                "section508.22.n"
+            ]
+        },
+        {
+            "description": "Ensures a navigation point to the primary content of the page. If the page contains iframes, each iframe should contain either no main landmarks or just one",
+            "help": "Page must contain one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/landmark-one-main?application=axeAPI",
+            "id": "landmark-one-main",
+            "impact": "moderate",
+            "nodes": [
+                {
+                    "all": [
+                        {
+                            "data": null,
+                            "id": "page-has-main",
+                            "impact": "moderate",
+                            "message": "Page must have a main landmark",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "any": [],
+                    "failureSummary": "Fix all of the following:\n  Page must have a main landmark",
+                    "html": "<html dir=\"ltr\" data-reactroot=\"\" lang=\"en-US\">",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures all content is contained within a landmark region",
+            "help": "Content should be contained in a landmark region",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/region?application=axeAPI",
+            "id": "region",
+            "impact": "moderate",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "region",
+                            "impact": "moderate",
+                            "message": "Content not contained by an ARIA landmark",
+                            "relatedNodes": [
+                                {
+                                    "html": "<h3>Honey</h3>",
+                                    "target": [
+                                        ".HeroSection.HeroSection-styleName--default:nth-child(1) > .HeroSection-link-wrapper > .HeroSection-content > h3"
+                                    ]
+                                },
+                                {
+                                    "html": "<p>Automatically searches for coupon codes</p>",
+                                    "target": [
+                                        ".HeroSection.HeroSection-styleName--default:nth-child(1) > .HeroSection-link-wrapper > .HeroSection-content > p"
+                                    ]
+                                },
+                                {
+                                    "html": "<h3>Tab Invaders</h3>",
+                                    "target": [
+                                        ".HeroSection.HeroSection-styleName--default:nth-child(2) > .HeroSection-link-wrapper > .HeroSection-content > h3"
+                                    ]
+                                },
+                                {
+                                    "html": "<h3>Ghostery</h3>",
+                                    "target": [
+                                        ".HeroSection.HeroSection-styleName--default:nth-child(3) > .HeroSection-link-wrapper > .HeroSection-content > h3"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"Home-SubjectShelf-subheading\">Customize the way Firefox works with extensions. Are you interested in\u2026</h2>",
+                                    "target": [
+                                        ".Home-CuratedCollections > .Card-contents > .Home-SubjectShelf-text-wrapper > .Home-SubjectShelf-subheading"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Bookmarks</span>",
+                                    "target": [
+                                        ".Home-CuratedCollections > .Card-contents > .Home-SubjectShelf-list > .Home-SubjectShelf-list-item:nth-child(1) > .Home-SubjectShelf-link > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Password managers</span>",
+                                    "target": [
+                                        ".Home-CuratedCollections > .Card-contents > .Home-SubjectShelf-list > .Home-SubjectShelf-list-item:nth-child(2) > .Home-SubjectShelf-link > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Ad blockers</span>",
+                                    "target": [
+                                        ".Home-CuratedCollections > .Card-contents > .Home-SubjectShelf-list > .Home-SubjectShelf-list-item:nth-child(3) > .Home-SubjectShelf-link > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Smarter Shopping</span>",
+                                    "target": [
+                                        ".Home-CuratedCollections > .Card-contents > .Home-SubjectShelf-list > .Home-SubjectShelf-list-item:nth-child(4) > .Home-SubjectShelf-link > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Productivity</span>",
+                                    "target": [
+                                        ".Home-CuratedCollections > .Card-contents > .Home-SubjectShelf-list > .Home-SubjectShelf-list-item:nth-child(5) > .Home-SubjectShelf-link > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Watching Videos</span>",
+                                    "target": [
+                                        ".Home-CuratedCollections > .Card-contents > .Home-SubjectShelf-list > .Home-SubjectShelf-list-item:nth-child(6) > .Home-SubjectShelf-link > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/954/954390-64.png?modified=97d4c956\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Facebook Container</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">184,735 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/821/821613-64.png?modified=1499811620\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">WhatsApp Popup</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">10,160 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/511/511962-64.png?modified=mcrushed\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Emoji Cheatsheet</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">119,780 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/static/img/addon-icons/video-64.png\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">image-save</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">6,818 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(4) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/466/466135-64.png?modified=1511104822\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Wikiwand: Wikipedia Modernized</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">16,057 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/659/659026-64.png?modified=mcrushed\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Wikipedia Context Menu Search</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">3,961 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/478/478084-64.png?modified=1488151221\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Wikipedia to Google Images</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">708 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/687/687221-64.png?modified=mcrushed\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Wikipedia Peek</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">4,132 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(5) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addons/818770/preview.png?modified=1496056820\" alt=\"\">",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">colorful vector trees</h2>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">53 users</span>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addons/204032/preview_large.jpg?modified=1279894845\" alt=\"\">",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Beautiful Sunny Day</h2>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">74 users</span>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addons/669216/preview.png?modified=1447093226\" alt=\"\">",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Sweet Little Bird</h2>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">180 users</span>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addons/224107/preview_large.jpg?modified=1283739902\" alt=\"\">",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">ABSTRACT FLOWERS.</h2>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">38 users</span>",
+                                    "target": [
+                                        ".SearchResult--theme.SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/626/626810-64.png?modified=mcrushed\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">New Tab Override (WebExtension)</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">137,737 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/793/793541-64.png?modified=1520644126\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Momentum</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">20,340 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/850/850407-64.png?modified=1524057623\" alt=\"\">",
+                                    "target": [
+                                        "a[href$=\"tabliss/\"] > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Tabliss</h2>",
+                                    "target": [
+                                        "a[href$=\"tabliss/\"] > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">7,204 users</span>",
+                                    "target": [
+                                        "a[href$=\"tabliss/\"] > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/851/851802-64.png?modified=mcrushed\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Tabby Cat</h2>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">3,807 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedCollection.CardList.AddonsCard:nth-child(7) > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/687/687753-64.png?modified=1522257623\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Passbolt</h2>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">2,630 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(1) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/455/455926-64.png?modified=mcrushed\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Search image</h2>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">54,277 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(2) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/358/358616-64.png?modified=mcrushed\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Blur</h2>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">64,854 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(3) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"SearchResult-icon\" src=\"https://addons.cdn.mozilla.net/user-media/addon_icons/602/602068-64.png?modified=mcrushed\" alt=\"\">",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-icon-wrapper > img"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"SearchResult-name\">Reverse Image Search</h2>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-contents > .SearchResult-name"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"SearchResult-users-text\">8,982 users</span>",
+                                    "target": [
+                                        ".Home-FeaturedExtensions > .Card-contents > .AddonsCard-list > .SearchResult:nth-child(4) > .SearchResult-link > .SearchResult-result > .SearchResult-users.SearchResult--meta-section > .SearchResult-users-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<h2 class=\"Home-SubjectShelf-subheading\">Change the way Firefox looks with themes.</h2>",
+                                    "target": [
+                                        ".Home-CuratedThemes > .Card-contents > .Home-SubjectShelf-text-wrapper > .Home-SubjectShelf-subheading"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Abstract</span>",
+                                    "target": [
+                                        ".Home-CuratedThemes > .Card-contents > .Home-SubjectShelf-list > .Home-SubjectShelf-list-item:nth-child(1) > .Home-SubjectShelf-link > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Nature</span>",
+                                    "target": [
+                                        "a[href$=\"nature/\"] > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Film &amp; TV</span>",
+                                    "target": [
+                                        ".Home-CuratedThemes > .Card-contents > .Home-SubjectShelf-list > .Home-SubjectShelf-list-item:nth-child(3) > .Home-SubjectShelf-link > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Scenery</span>",
+                                    "target": [
+                                        "a[href$=\"scenery/\"] > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Music</span>",
+                                    "target": [
+                                        "a[href$=\"music/\"] > span:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<span>Seasonal</span>",
+                                    "target": [
+                                        ".Home-CuratedThemes > .Card-contents > .Home-SubjectShelf-list > .Home-SubjectShelf-list-item:nth-child(6) > .Home-SubjectShelf-link > span:nth-child(2)"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Content not contained by an ARIA landmark",
+                    "html": "<html dir=\"ltr\" data-reactroot=\"\" lang=\"en-US\">",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensure all skip links have a focusable target",
+            "help": "The skip-link target should exist and be focusable",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.0/skip-link?application=axeAPI",
+            "id": "skip-link",
+            "impact": "moderate",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "skip-link",
+                            "impact": "moderate",
+                            "message": "No skip link target",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  No skip link target",
+                    "html": "<a class=\"Button Button--action Header-authenticate-button Header-button Button--micro\" href=\"#login\">Register or Log in</a>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".Button"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "skip-link",
+                            "impact": "moderate",
+                            "message": "No skip link target",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  No skip link target",
+                    "html": "<a href=\"#desktop\" class=\"Footer-link Footer-desktop\">View classic desktop site</a>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        ".Footer-link"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ]
+        }
+    ]
+}

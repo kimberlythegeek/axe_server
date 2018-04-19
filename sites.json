@@ -1,0 +1,14 @@
+[
+  {
+      "name": "mdn",
+      "url": "https://developer.mozilla.org"
+  },
+  {
+      "name": "mozilla",
+      "url": "https://www.mozilla.com"
+  },
+  {
+      "name": "addons",
+      "url": "https://addons.mozilla.com"
+  }
+]
