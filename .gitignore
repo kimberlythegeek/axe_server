@@ -1,0 +1,4 @@
+*.json
+geckodriver.log
+*.pyc
+__pycache__

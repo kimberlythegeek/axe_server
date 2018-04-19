@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+import time
 from os import curdir, path
 
 from axe_selenium_python.axe import Axe
@@ -21,6 +21,7 @@ def run_axe(site_name, site_url):
 
     return results
 
+
 def update():
     with open(path.join(curdir, 'sites.json'), 'r') as infile:
         sites = json.loads(infile.read())
@@ -29,7 +30,7 @@ def update():
         results = run_axe(site['name'], site['url'])
         violations = results['violations']
         data = {
-            'last_updated': str(datetime.now()),
+            'last_updated': time.time(),
             'violations': violations
         }
         print('\n\nFound %s violations on %s\n\n' % (len(violations), site['url']))
@@ -37,5 +38,5 @@ def update():
         filename = '%s.json' % site['name']
         filepath = path.join(curdir, 'results', filename)
 
-        with open(filepath, 'w') as outfile:
+        with open(filepath, 'w+') as outfile:
             outfile.write(json.dumps(data, indent=4, sort_keys=True))
