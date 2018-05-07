@@ -27,7 +27,11 @@ class Results(Resource):
                 """.format(site_name)
             c.execute(query)
             rows = c.fetchall()
-        return rows
+            data = []
+            for row in rows:
+                data.append({"last_updated": row[0],
+                            "violations": json.loads(row[1])})
+        return data
 
 
 api.add_resource(Results, '/<string:site_name>')
