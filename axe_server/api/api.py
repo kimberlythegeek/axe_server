@@ -27,10 +27,6 @@ class Results(Resource):
                 """.format(site_name)
             c.execute(query)
             rows = c.fetchall()
-            data = {
-                "last_updated": row[0][2],
-                "violations": json.loads(row[0][3])
-            }
         return rows
 
 
