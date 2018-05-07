@@ -59,7 +59,7 @@ def update():
 
 def run():
     scheduler = PeriodicScheduler()
-    scheduler.setup(86400, update)
+    scheduler.setup(3600, update)
     scheduler.run()
     app.run()
 

@@ -23,7 +23,7 @@ class Results(Resource):
         with sql.connect(DATABASE) as db:
             c = db.cursor()
             query = """
-                SELECT * FROM data WHERE name = \"{}\" ORDER BY updated LIMIT 1
+                SELECT * FROM data WHERE name = \"{}\" ORDER BY updated
                 """.format(site_name)
             c.execute(query)
             row = c.fetchall()
