@@ -26,12 +26,12 @@ class Results(Resource):
                 SELECT * FROM data WHERE name = \"{}\" ORDER BY updated
                 """.format(site_name)
             c.execute(query)
-            row = c.fetchall()
+            rows = c.fetchall()
             data = {
                 "last_updated": row[0][2],
                 "violations": json.loads(row[0][3])
             }
-        return data
+        return rows
 
 
 api.add_resource(Results, '/<string:site_name>')
